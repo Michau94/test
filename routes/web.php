@@ -13,10 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Route::middleware('auth')->name('admin.')->prefix('admin')->namespace('Admin')->group(
+    function () {
+
+        // rotte autenticate
+
+    }
+);
+
+
 
 Route::get('/home', 'HomeController@index')->name('home');
