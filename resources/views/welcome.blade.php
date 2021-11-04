@@ -87,7 +87,13 @@
             <div class="title m-b-md">
                 Laravel
             </div>
+
+            {{-- // modifica di Leo --}}
             <h2>Test</h2>
+
+            {{-- {{modifica di Michau}} --}}
+            <p>Miao Bao Frr</p>
+
 
             <div class="links">
                 <a href="https://laravel.com/docs">Docs</a>
