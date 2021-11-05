@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cose Modificate</title>
-</head>
-<body>
-    
-<h1>Ho fame per questo sviluppo col mio Team Deliveboo</h1>
+@extends('layouts.app')
 
-</body>
-</html>
+@section('content')
+    <div class="container">
+
+        <h1 class="text-center">Ho fame per questo sviluppo col mio Team Deliveboo</h1>
+
+        {{-- in laravel per passare dati a componenti usare props --}}
+        <example-component data="ciaone"></example-component>
+    </div>
+
+@endsection
