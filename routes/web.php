@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function () {
+    return view('test');
+});
+
 Route::middleware('auth')->name('admin.')->prefix('admin')->namespace('Admin')->group(
     function () {
 
