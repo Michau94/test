@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('layouts.funzione1');
 });
 
+Route::get('/test', function () {
+    return view('test');
+});
+
 Route::middleware('auth')->name('admin.')->prefix('admin')->namespace('Admin')->group(
     function () {
 
