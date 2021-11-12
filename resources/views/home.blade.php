@@ -7,6 +7,7 @@
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}
                     <h1>Questo è il titolo della dashboard</h1>
+                    <h2>Titolo 2</h2>
                 </div>
 
                 <div class="card-body">
