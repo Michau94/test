@@ -1,0 +1,1 @@
+<h1>test di eliminazione di un branch mergiato</h1>
